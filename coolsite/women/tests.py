@@ -7,7 +7,8 @@ ss = lambda x, y: x * y
 rr = list(map(lambda x: x**2, a))
 
 
-
+ss = lambda x, y: x * y
+rr = list(map(lambda x: x**2, a))
 
 a.sort()
 print(a)
