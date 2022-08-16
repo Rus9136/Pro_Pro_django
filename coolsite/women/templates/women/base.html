@@ -5,6 +5,17 @@
     <title>{{title}}</title>
 </head>
 <body>
-about стр
+
+{% block mainmenu %}
+<ul>
+    { % for m in menu %}
+    <li>{{m}}</li>
+</ul>
+
+{% endblock mainmenu %}
+
+
+
+
 </body>
 </html>
